@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrap {
+	// height: 100vh;
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	width: 100%;
+	position: relative;
+}
+
+.QuizCard {
+	border-radius: 25px;
+	margin: 0 auto;
+	background-color: #fff;
+	min-width: 500px;
+	height: 250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 33%);
+	ul {
+		padding: 0 25px;
+		list-style: none;
+		text-align: left;
+		li {
+			border: 2px solid #282c34;
+			border-radius: 25px;
+			margin-bottom: 5px;
+			padding: 10px;
+			transition: all 0.3s ease-in-out;
+			&:first-child {
+				margin-top: 20px;
+			}
+			&:hover {
+				cursor: pointer;
+				border-color: rgb(18, 18, 195);
+			}
+		}
+	}
+	h2 {
+		margin-top: 20px;
+		padding: 0 25px
+	}
+}
